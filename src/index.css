@@ -1,0 +1,150 @@
+body {
+  background-color: #000000;
+  padding: 0px;
+  margin: 0;
+}
+html,body{
+  background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: 'Numans', sans-serif;
+  }
+h1 {
+  color: #FFC15E; /*#D3C5E6;*/
+  padding: 20px;
+  font-size: 72px;
+  text-align: center;
+}
+h2, p, ul, li {
+  color: #453A55;
+  font-family: sans-serif;
+}
+.navbar {
+  background-color: #F7934C; 
+  padding: 0;
+}
+ul.navbar-nav li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.navbar-nav li a {
+  color: #453A55;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+  margin: 0;
+}
+.active {
+  background-color: #FFC15E; /*#FFFADE;*/
+}
+.content {
+  background-color: #F7934C;
+  padding: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+.row {
+  display: flex;
+}
+.center {
+  text-align: center;
+  filter: invert(0%);
+}
+.column {
+  flex: 50%;
+}
+
+.container{
+  height: 100%;
+  align-content: center;
+  }
+  
+  .card{
+  height: 320px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 400px;
+  background-color: rgba(0,0,0,0.5) !important;
+  }
+  
+  .social_icon span{
+  font-size: 60px;
+  margin-left: 10px;
+  color: #FFC312;
+  }
+  
+  .social_icon span:hover{
+  color: white;
+  cursor: pointer;
+  }
+  
+  .card-header h3{
+  color: white;
+  }
+  
+  .social_icon{
+  position: absolute;
+  right: 20px;
+  top: -45px;
+  }
+  
+  .input-group-prepend span{
+  width: 50px;
+  background-color: #FFC312;
+  color: black;
+  border:0 !important;
+  }
+  
+  input:focus{
+  outline: 0 0 0 0  !important;
+  box-shadow: 0 0 0 0 !important;
+  
+  }
+  
+  .remember{
+  color: white;
+  }
+  
+  .remember input
+  {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 5px;
+  }
+  
+  .login_btn{
+  color: black;
+  background-color: #FFC312;
+  width: 100px;
+  }
+  
+  .login_btn:hover{
+  color: black;
+  background-color: white;
+  }
+  
+  .links{
+  color: white;
+  }
+  
+  .links a{
+  margin-left: 4px;
+  }
+  .vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 60vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+  }
